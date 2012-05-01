@@ -632,7 +632,7 @@
 				.css({
 				  width: '999999px',
 				  position: 'relative',
-					left: '-'+(options.infiniteLoop ? origLeft : 0)+'px'
+				  left: '-'+(options.infiniteLoop ? origLeft : wrapperWidth*options.startingSlide)+'px'
 				});
 				$parent.children().css({
 					width: childrenWidth,
